@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env PORT=8080 AUTH_TWO=efefheufue USER_ONE=ritika@techcarrel.com USER_TWO=12345 ADMIN_AUTH=hdwudhuw nodemon --trace-warnings src/app.js"
+    "dev": "cross-env PORT=8080 AUTH_TWO=efefheufue USER_ONE=ritika@techcarrel.com USER_TWO=12345 ADMIN_AUTH=hdwudhuw nodemon --trace-warnings src/app.js",
+    "start": "cross-env PORT=8080 AUTH_TWO=efefheufue USER_ONE=ritika@techcarrel.com USER_TWO=12345 ADMIN_AUTH=hdwudhuw node src/app.js"
   },
   "author": "",
   "license": "ISC",
