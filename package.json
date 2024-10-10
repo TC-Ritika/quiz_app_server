@@ -1,0 +1,23 @@
+{
+  "name": "quiz_app_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env PORT=8080 AUTH_TWO=efefheufue USER_ONE=ritika@techcarrel.com USER_TWO=12345 ADMIN_AUTH=hdwudhuw nodemon --trace-warnings src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7",
+    "validator": "^13.12.0"
+  }
+}
